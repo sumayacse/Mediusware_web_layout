@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basic Web layout</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="sectionOne">
+            <div>
+                <div class="header">
+                    <h1>< header ></h1> 
+                </div>
+                <div class="nav">
+                    <h1>< nav ></h1>
+                </div>
+                <div class="middleBody">
+                    <div class="leftSide">
+                        <div class="section">
+                            <h1>< section ></h1>
+                        </div>
+                        <div class="article">
+                            <h1>< article ></h1>
+                        </div>
+                    </div>
+                    <div class="rightSide">
+                        <div class="aside">
+                            <h1>< aside ></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h1>< footer ></h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="sectionOne">
+            <table
+                style="
+                    border-collapse: collapse;
+                    width: 100%;
+                    max-width: 800px;
+                    margin: 0 auto;
+                "
+            >
+                <tr>
+                    <th
+                        colspan="4"
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            text-align: center;
+                        "
+                    >
+                        Seminar
+                    </th>
+                </tr>
+                <tr>
+                    <th
+                        rowspan="1"
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            width: 100px;
+                        "
+                    >
+                        Day
+                    </th>
+                    <th
+                        colspan="2"
+                        style="border: 1px solid black; padding: 8px"
+                    >
+                        Schedule
+                    </th>
+                    <th
+                        rowspan="1"
+                        style="border: 1px solid black; padding: 8px"
+                    >
+                        Topic
+                    </th>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid black; padding: 8px"></th>
+                    <th style="border: 1px solid black; padding: 8px">Begin</th>
+                    <th style="border: 1px solid black; padding: 8px">End</th>
+                    <th style="border: 1px solid black; padding: 8px"></th>
+                </tr>
+                <tr>
+                    <td
+                        rowspan="2"
+                        style="border: 1px solid black; padding: 8px"
+                    >
+                        Monday
+                    </td>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #ffffd0;
+                        "
+                    >
+                        8:00 a.m.
+                    </td>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #e6e6ff;
+                        "
+                    >
+                        5:00 p.m.
+                    </td>
+                    <td style="border: 1px solid black; padding: 8px">
+                        Introduction to XML
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                        colspan="2"
+                        style="border: 1px solid black; padding: 8px"
+                    ></td>
+                    <td style="border: 1px solid black; padding: 8px">
+                        Validity: DTD and Relax NG
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                        rowspan="3"
+                        style="border: 1px solid black; padding: 8px"
+                    >
+                        Tuesday
+                    </td>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #ffffd0;
+                        "
+                    >
+                        8:00 a.m.
+                    </td>
+                    <td style="border: 1px solid black; padding: 8px">
+                        11:00 a.m.
+                    </td>
+                    <td
+                        rowspan="2"
+                        style="border: 1px solid black; padding: 8px"
+                    >
+                        XPath
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #e6ffe6;
+                        "
+                    >
+                        11:00 a.m.
+                    </td>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #e6ffe6;
+                        "
+                    >
+                        2:00 p.m.
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #e6ffe6;
+                        "
+                    >
+                        2:00 p.m.
+                    </td>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #e6e6ff;
+                        "
+                    >
+                        5:00 p.m.
+                    </td>
+                    <td style="border: 1px solid black; padding: 8px">
+                        XSL Transformations
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px">
+                        Wednesday
+                    </td>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #ffffd0;
+                        "
+                    >
+                        8:00 a.m.
+                    </td>
+                    <td
+                        style="
+                            border: 1px solid black;
+                            padding: 8px;
+                            background-color: #e6ffe6;
+                        "
+                    >
+                        12:00 p.m.
+                    </td>
+                    <td style="border: 1px solid black; padding: 8px">
+                        XSL Formatting Objects
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="achievements-section">
+            <h2 class="achievements-title">
+                Achievements <span>& Awards</span>
+            </h2>
+            <p class="achievements-subtitle">
+                People know us for our top-notch work and great customer
+                service, all of whom have expressed nothing but positive
+                feedback about our services. Take a moment to see for yourself.
+            </p>
+            <div class="awards-container">
+                <div class="award-card">
+                    <div class="clutch-rating">
+                        <div class="clutch-logo"><img src="./images/img_1.png" alt="clutch-logo"></div>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="clutch-rating">
+                        <div class="clutch-logo"><img src="./images/img_2.png" alt="upwork-badge"></div>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="clutch-rating">
+                        <div class="clutch-logo"><img src="./images/img_3.png" style="height: 193px;" alt="upwork-badge"></div>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="clutch-rating">
+                        <div class="clutch-logo"><img src="./images/img_4.png" alt="upwork-badge"></div>
+                    </div>
+                </div>
+             </section>
+        <section>
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <div class="text-content">
+                        <h2 class="heading">Want to know what we are up to?</h2>
+                        <p class="subtext">Subscribe to our newsletter.</p>
+                    </div>
+                    <div class="form-group newsLetterFrom">
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            class="email-input"
+                        />
+                        <button class="subscribe-button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="profile-section">
+                    <div class="profile-card">
+                        <img
+                            src="./images/img_5.png"
+                            alt="Profile"
+                            class="profile-image"
+                        />
+                        <h2 class="profile-name">Managing Director</h2>
+                        <p class="profile-title">Company Ltd</p>
+                        <p class="contact-message">
+                            I'd be excited to talk with you about your projects
+                            or what you need.<br /><br />
+                            Fill in the form or send an email to
+                            <a
+                                href="mailto:info@company.com"
+                                class="contact-email"
+                                >info@company.com</a
+                            >
+                        </p>
+                    </div>
+                    <p class="response-time">Talk to you in less than 24hrs.</p>
+                    <p class="book-call">
+                        Feel free to select a time at your convenience!
+                    </p>
+                    <a href="#" class="lets-talk">Let's Talk →</a>
+                </div>
+
+                <div class="form-section">
+                    <div class="form-header">
+                        <h1 class="form-title">
+                            Got an idea? We've got the skills.
+                        </h1>
+                        <p class="form-subtitle">
+                            Fill out our contact form and we'll get in touch!
+                        </p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label">Name*</label>
+                            <input
+                                type="text"
+                                class="form-input"
+                                placeholder="Enter Your Name"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email*</label>
+                            <input
+                                type="email"
+                                class="form-input"
+                                placeholder="Enter Your Email"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label"
+                                >Phone Number
+                                <span class="optional">(Optional)</span></label
+                            >
+                            <input
+                                type="tel"
+                                class="form-input"
+                                placeholder="Enter Your Phone Number"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label"
+                                >Company Name
+                                <span class="optional">(Optional)</span></label
+                            >
+                            <input
+                                type="text"
+                                class="form-input"
+                                placeholder="Enter Your Company Name"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label"
+                                >Deep details about your query
+                                <span class="optional">(Optional)</span></label
+                            >
+                            <textarea
+                                class="form-textarea"
+                                placeholder="Tell us more about your query"
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            Submit Inquiry →
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
